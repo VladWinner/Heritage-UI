@@ -1,5 +1,5 @@
 {
-	"version": "7.0.0",
+	"version": "7.2.2",
 	"id": "BurnTheWitch.HeritageUI",
 	"name": "Heritage UI",
 	"updateCheck": "https://raw.githubusercontent.com/The-Jaded-Obsidian-Witch/Heritage-UI-Update-Json/main/updater.json",
@@ -7,15 +7,15 @@
 	"authors": [
 		"Burn, the witch"
 	],
-	"blobsFolders": ["mod content/base/blobs"],
 	"frameworkVersion": "2.15.1",
-	"loadAfter": [
+	"loadAfter": [ "Notex.SimpleKeyEventHelper"
 	],
 	"localisation": {
 		"english": {
 			"HUI_MENU_PAGE_DESTINATION_TAB_MISSIONS": "Contracts",
 			"UI_HERITAGE_QUICK_LOAD": "Quick Load",
 			"UI_HERITAGE_MISSIONS": "Missions",
+			"UI_HERITAGE_GHOST": "Ghost Mode",
 			"UI_HERITAGE_ESC": "Escalations",
 			"UI_HERITAGE_ETS": "Elusive Targets",
 			"UI_HERITAGE_ET": "Elusive Target",
@@ -90,8 +90,49 @@
 			"UI_HERITAGE_EVERGREEN": "Freelancer",
 			"UI_HERITAGE_DASHBOARD": "Dashboard"
 		},
-		"italian": {},
-		"german": {			
+		"italian": {
+			"UI_HERITAGE_QUICK_LOAD": "Caricamento Rapido",
+			"UI_HERITAGE_QUICK_SAVE": "Salvataggio Rapido",
+			"UI_HERITAGE_SEASON_1": "Stagione 1",
+			"UI_HERITAGE_SEASON_2": "Stagione 2",
+			"UI_HERITAGE_SEASON_3": "Stagione 3",
+			"UI_SEASON_1_HEADER": "HITMAN",
+			"UI_SEASON_2_HEADER": "HITMAN 2",
+			"UI_SEASON_3_HEADER": "HITMAN 3",
+			"UI_HERITAGE_ESC_TITLE": "Escalation",
+			"UI_HERITAGE_GAMEMODES": "Modalità di Gioco",
+			"UI_MENU_PAGE_SIDE_MISSIONS_TITLE_HEADER": "Contenuti Aggiuntivi",
+			"UI_CAMPAIGN_ICA_FACILITY_TITLE_HEADER": "Free Starter Pack",
+			"UI_MENU_PAGE_HUB_SEVEN_DEADLY_SINS_HEADER": "HITMAN 3: Seven Deadly Sins Collection",
+			"UI_MENU_PAGE_SPECIAL_ASSIGNMENTS_TITLE_HEADER": "HITMAN 2: Silver Edition",
+			"UI_CONTRACT_CAMPAIGN_WHITE_SPIDER_TITLE_HEADER": "HITMAN: Game of the Year Edition",
+			"UI_MENU_PAGE_BONUS_MISSIONS_TITLE_HEADER": "HITMAN: The Full Experience",
+			"UI_HERITAGE_GAMEMODE": "Modalità di Gioco",
+			"UI_HERITAGE_EVERGREEN": "Freelance",
+			"UI_HERITAGE_DASHBOARD": "In Evidenza",
+			"UI_MENU_PAGE_HITS_ELEMENT_CATEGORY_SARAJEVOSIX_HEADER": "HITMAN: Esclusiva PS4",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S0": "Classico",
+			"UI_ITEM_SUBTYPE_S0": "Classico",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S1": "Stagione 1",
+			"UI_ITEM_SUBTYPE_S1": "Stagione 1",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S2": "Stagione 2",
+			"UI_ITEM_SUBTYPE_S2": "Stagione 2",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S3": "Stagione 3",
+			"UI_ITEM_SUBTYPE_S3": "Stagione 3",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S4": "GOTY",
+			"UI_ITEM_SUBTYPE_S4": "GOTY",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S5": "Deluxe",
+			"UI_ITEM_SUBTYPE_S5": "Deluxe",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S6": "7 Deadly Sins",
+			"UI_ITEM_SUBTYPE_S6": "7 Deadly Sins",
+			"UI_ITEM_SUBTYPE_S7": "Freelance",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S7": "Freelance",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S8": "Mod",
+			"UI_ITEM_SUBTYPE_S8": "Mod",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_PISTOL": "Pistola a Dardi",
+			"UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_PISTOL": "Pistola a Dardi"
+		},
+		"german": {
 			"UI_HERITAGE_QUICK_LOAD": "Schnellladen",
 			"UI_HERITAGE_QUICK_SAVE": "Schnellspeichern",
 			"UI_HERITAGE_SEASON_1": "Season 1",
@@ -151,6 +192,15 @@
 			"UI_HERITAGE_DASHBOARD": "Dashboard"
 		},
 		"russian": {
+			"HUI_MENU_PAGE_DESTINATION_TAB_MISSIONS": "Контракты",
+			"UI_HERITAGE_QUICK_LOAD": "Быстрая загрузка",
+			"UI_HERITAGE_MISSIONS": "Миссии",
+			"UI_HERITAGE_GHOST": "Режим «Призрак»",
+			"UI_HERITAGE_ESC": "Обострения",
+			"UI_HERITAGE_ETS": "Неуловимые цели",
+			"UI_HERITAGE_ET": "Неуловимая цель",
+			"UI_HERITAGE_QUICK_SAVE": "Быстрое сохранение",
+			"UI_HERITAGE_CREDIT": "Heritage UI",
 			"UI_HERITAGE_SEASON_1": "Сезон 1",
 			"UI_HERITAGE_SEASON_2": "Сезон 2",
 			"UI_HERITAGE_SEASON_3": "Сезон 3",
@@ -159,15 +209,47 @@
 			"UI_SEASON_3_HEADER": "HITMAN 3",
 			"UI_HERITAGE_ESC_TITLE": "Обострения",
 			"UI_HERITAGE_GAMEMODES": "Режимы",
-			"UI_MENU_PAGE_SIDE_MISSIONS_TITLE_HEADER": "Контент Дополнений",
-			"UI_CAMPAIGN_ICA_FACILITY_TITLE_HEADER": "Беспланый Стартовый Набор",
-			"UI_MENU_PAGE_HUB_SEVEN_DEADLY_SINS_HEADER": "HITMAN 3: Семь Смертных Грехов",
-			"UI_MENU_PAGE_SPECIAL_ASSIGNMENTS_TITLE_HEADER": "HITMAN 2: Серебрянное Издание",
-			"UI_CONTRACT_CAMPAIGN_WHITE_SPIDER_TITLE_HEADER": "HITMAN: Издание GOtY",
-			"UI_MENU_PAGE_BONUS_MISSIONS_TITLE_HEADER": "HITMAN: Полное Издание",
+			"UI_MENU_PAGE_SIDE_MISSIONS_TITLE_HEADER": "Материалы дополнений",
+			"UI_CAMPAIGN_ICA_FACILITY_TITLE_HEADER": "Бесплатный начальный набор",
+			"UI_MENU_PAGE_HUB_SEVEN_DEADLY_SINS_HEADER": "HITMAN 3: Семь смертных грехов",
+			"UI_MENU_PAGE_SPECIAL_ASSIGNMENTS_TITLE_HEADER": "HITMAN 2: Серебряное издание",
+			"UI_CONTRACT_CAMPAIGN_WHITE_SPIDER_TITLE_HEADER": "HITMAN: издание «Игра года»",
+			"UI_MENU_PAGE_BONUS_MISSIONS_TITLE_HEADER": "HITMAN: Полное издание",
 			"UI_HERITAGE_GAMEMODE": "Режим",
 			"UI_HERITAGE_EVERGREEN": "Фрилансер",
-			"UI_HERITAGE_DASHBOARD": "Избранное"
+			"UI_HERITAGE_DASHBOARD": "Быстрый доступ",
+			"UI_MENU_PAGE_HITS_ELEMENT_CATEGORY_SARAJEVOSIX_HEADER": "HITMAN: эксклюзив для PlayStation 4",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S0": "Фирменное",
+			"UI_ITEM_SUBTYPE_S0": "Фирменный",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S1": "Сезон 1",
+			"UI_ITEM_SUBTYPE_S1": "Сезон 1",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S2": "Сезон 2",
+			"UI_ITEM_SUBTYPE_S2": "Сезон 2",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S3": "Сезон 3",
+			"UI_ITEM_SUBTYPE_S3": "Сезон 3",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S4": "Игра года",
+			"UI_ITEM_SUBTYPE_S4": "Игра года",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S5": "Deluxe",
+			"UI_ITEM_SUBTYPE_S5": "Deluxe",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S6": "Смертные грехи",
+			"UI_ITEM_SUBTYPE_S6": "Смертные грехи",
+			"UI_ITEM_SUBTYPE_S7": "Фрилансер",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S7": "Фрилансер",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_PISTOL": "Дротики",
+			"UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_PISTOL": "Дротик",
+			"UI_MENU_PAGE_SAFEHOUSE_ELEMENT_CATEGORY_EVERGREEN_SAFE": "Убежище",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_SAFE": "Убежище",
+			"UI_ITEM_SUBTYPE_EVERGREEN_SAFE": "Убежище",
+			"UI_MENU_PAGE_SAFEHOUSE_ELEMENT_CATEGORY_FEATURED": "Избранное",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_FEATURED": "Избранное",
+			"UI_ITEM_SUBTYPE_USERCREATED": "Из мода",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_USERCREATED": "Из мода",
+			"UI_ITEM_SUBTYPE_FEATURED": "Избранный",
+			"hui_prop_poison_vial_sick_name": "Флакон МКА с рвотным ядом",
+			"hui_prop_poison_vial_sick_name2": "Флакон с рвотным ядом",
+			"hui_prop_poison_vial_fast_name": "Флакон МКА со смертельным ядом",
+			"hui_prop_poison_pills_lethal_name": "Смертельные таблетки МКА",
+			"hui_prop_poison_vial_sedative_name": "Флакон МКА с седативным ядом"
 		},
 		"chineseSimplified": {
 			"UI_HERITAGE_GAMEMODE": "游戏模式",
@@ -206,7 +288,9 @@
 			},
 			"french": {
 			},
-			"italian": {},
+			"italian": {
+				"1998245905": "Estrazione"
+			},
 			"german": {},
 			"spanish": {
 			},
@@ -217,17 +301,33 @@
 		},
 		"008D33DE8C75CACB": {
 			"english": {
-				"243861870": "Season 1"
+				"243861870": "Season 1",
+				"803320584": "Greenland",
+				"1174961694": "Greenland",
+				"216107613": "Greenland",
+				"839967534": "Greenland",
+				"1626680168": "ICA Facility, Greeland",
+				"1163205649": "ICA Facility, Greeland"
 			},
 			"french": {
 				"243861870": "Saison 1"
 			},
-			"italian": {},
+			"italian": {
+				"243861870": "Stagione 1"
+			},
 			"german": {},
 			"spanish": {
 				"243861870": "Temporada 1"
 			},
-			"russian": {},
+			"russian": {
+				"243861870": "Сезон 1",
+				"803320584": "Гренландия",
+				"1174961694": "Гренландия",
+				"216107613": "Гренландия",
+				"839967534": "Гренландия",
+				"1626680168": "Комплекс МКА, Гренландия",
+				"1163205649": "Комплекс МКА, Гренландия"
+			},
 			"chineseSimplified": {},
 			"chineseTraditional": {},
 			"japanese": {}
@@ -239,11 +339,17 @@
 			},
 			"french": {
 			},
-			"italian": {},
+			"italian": {
+				"2023958633": "Attiva VR",
+				"2977102836": "Disattiva VR"
+			},
 			"german": {},
 			"spanish": {
 			},
-			"russian": {},
+			"russian": {
+				"2023958633": "Войти в VR",
+				"2977102836": "Выйти из VR"
+			},
 			"chineseSimplified": {},
 			"chineseTraditional": {},
 			"japanese": {}
@@ -255,12 +361,16 @@
 			"french": {
 				"2541770964": "Saison 2"
 			},
-			"italian": {},
+			"italian": {
+				"2541770964": "Stagione 2"
+			},
 			"german": {},
 			"spanish": {
 				"2541770964": "Temporada 2"
 			},
-			"russian": {},
+			"russian": {
+				"2541770964": "Сезон 2"
+			},
 			"chineseSimplified": {},
 			"chineseTraditional": {},
 			"japanese": {}
@@ -272,12 +382,16 @@
 			"french": {
 				"3766970434": "Saison 3"
 			},
-			"italian": {},
+			"italian": {
+				"3766970434": "Stagione 3"
+			},
 			"german": {},
 			"spanish": {
 				"3766970434": "Temporada 3"
 			},
-			"russian": {},
+			"russian": {
+				"3766970434": "Сезон 3"
+			},
 			"chineseSimplified": {},
 			"chineseTraditional": {},
 			"japanese": {}
@@ -288,7 +402,9 @@
 			},
 			"french": {
 			},
-			"italian": {},
+			"italian": {
+				"2563573081": "Campienza equipaggiamento superata. Impossibile avviare la missione"
+			},
 			"german": {},
 			"spanish": {
 			},
@@ -316,7 +432,7 @@
 			"contentFolders": ["mod content/ui styles/heritage ui base"],
 			"enabledByDefault": true
 		},
-		
+
 		{
 			"name": "Heritage UI/Minimal Crosshair",
 			"tooltip": "Heritage UI'S custom UI with a minimal dot styled crosshair.",
@@ -584,7 +700,7 @@
 			"contentFolders": ["mod content/loading screens/h3/content"]
 		},
 		{
-			
+
 			"name": "Vanilla",
 			"tooltip": "Hitman WOA'S Default destination backgrounds.",
 			"image": "framework content/d_v.png",
@@ -717,6 +833,7 @@
 			"blobsFolders": [
 				"mod content/menus/destination menu/blobs"
 			],
+			"peacockPlugins": ["mod content/menus/destination menu/plugins/Destinationtweaks.plugin.js"],
 			"enabledByDefault": true
 		},
 		{
@@ -724,7 +841,8 @@
 		"tooltip": "WOA's default location menu.",
 		"image": "framework content/vanillalocation.png",
 		"type": "select",
-		"group": "Location Menu"
+		"group": "Location Menu",
+		"blobsFolders": ["mod content/menus/location menu vanilla compat/blobs"]
 	},
 	{
 		"name": "Heritage UI",
@@ -771,22 +889,50 @@
 			"blobsFolders": [
 				"mod content/menus/gamemodes menu/blobs"
 			],
+			"peacockPlugins": ["mod content/menus/gamemodes menu/plugins/arcade.plugin.js"],
 			"enabledByDefault": true
+		},
+		{
+			"name": "Heritage UI + Ghost Mode",
+			"tooltip": "Heritage UI'S custom gamemodes menu with Ghost Mode support.",
+			"image": "framework content/gm_gm.png",
+			"type": "select",
+			"group": "Gamemodes Menu",
+			"blobsFolders": [
+				"mod content/menus/gamemodes menu ghost mode/blobs"
+			],
+			"peacockPlugins": ["mod content/menus/gamemodes menu/plugins/arcade.plugin.js"]
 		},
 		{
 			"name": "Off",
 			"type": "select",
-			"group": "Quick Save/Load"
+			"group": "Quick Save|Load"
 		},
 		{
 			"name": "On",
-			"tooltip": "Adds quick save/load buttons to the pause menu.",
+			"tooltip": "Adds quick save|load buttons to the pause menu.",
 			"image": "framework content/quicksave.png",
 			"type": "select",
 			"blobsFolders": [
 				"mod content/menus/quick save/blobs"
 			],
-			"group": "Quick Save/Load",
+			"group": "Quick Save|Load",
+			"enabledByDefault": true
+		},
+		{
+			"name": "Off",
+			"type": "select",
+			"group": "Quick Save|Load Bindings"
+		},
+		{
+			"name": "On",
+			"tooltip": "Adds quick save|load bindings.",
+			"image": "framework content/QSQL.png",
+			"type": "select",
+			"contentFolders": [
+				"mod content/menus/quick save/content"
+			],
+			"group": "Quick Save|Load Bindings",
 			"enabledByDefault": true
 		},
 		{
@@ -794,13 +940,13 @@
 			"type": "select",
 			"tooltip": "HITMAN WOA's default item names.",
 			"image": "framework content/defaultnames.png",
-			"group": "Localization| Item Names"
+			"group": "Localization|Item Names"
 		},
 		{
 			"name": "Heritage",
 			"type": "select",
 			"tooltip": "Attempts to make item and suit names more consistent, following a naming scheme similar to HITMAN 2016.",
-			"group": "Localization| Item Names",
+			"group": "Localization|Item Names",
 			"image": "framework content/heritagenames.png",
 			"localisationOverrides": {
 				"0072D1A320470342": {
@@ -879,7 +1025,7 @@
 						"3722945924": "Bartoli 12H",
 						"3882554747": "Bartoli 12H Deluxe",
 						"2058437330": "Striker Mk III"
-		
+
 					},
 					"french": {
 					},
@@ -913,7 +1059,11 @@
 						"1021829317": "Emetic Guru Grenade",
 						"1177362553": "Emetic Pen Syringe",
 						"473844920": "Sedative Proximity Mine",
-						"2060585035": "Carte Blanche Coin"
+						"2060585035": "Carte Blanche Coin",
+						"2063036796": "ICA Briefcase Mk III",
+						"264649869": "Lethal Easter Egg",
+						"835240520": "Emetic Easter Egg",
+						"743673881": "Sedative Easter Egg"
 					},
 					"french": {
 					},
@@ -931,7 +1081,12 @@
 						"3578533398": "Jarl's Sabre",
 						"2161820740": "A rusty, old pirate sabre. Owned by Jarl, Son of Hanne, first mate to the Dread Pirate 'The Black Almond.'",
 						"2944947255": "ICA Briefcase Executive",
-						"3779994366": "ICA Briefcase Executive Mk II"
+						"3779994366": "ICA Briefcase Executive Mk II",
+						"616234866": "Explosive Kronstadt Pen",
+						"558612169": "IOI Elite Earphones",
+						"1090098547": "Kronstadt Earphones",
+						"924103516": "Lil' Pallas",
+						"424313126": "Lil' Pallas Detonator"
 					},
 					"french": {
 					},
@@ -1033,7 +1188,9 @@
 						"2887221963": "Absolution Sniping Suit",
 						"671377108": "Desert Survival Suit",
 						"1542410141": "Subject 47 Suit",
-						"1181997343": "Subject 47 Suit"
+						"1181997343": "Subject 47 Suit",
+						"3200287187": "Perpetuity Suit",
+						"691069374": "Cessation Suit"
 					},
 					"french": {
 					},
@@ -1113,7 +1270,7 @@
 			"type": "select",
 			"tooltip": "HITMAN WOA's default name for Mission Stories.",
 			"image": "framework content/MissionStories.png",
-			"group": "Localization| Mission Story Terminology"
+			"group": "Localization|Mission Story Terminology"
 		},
 		{
 			"name": "Heritage",
@@ -1338,7 +1495,7 @@
 			"0079B380B37AEAF1": {
 				"english": {
 					"3436103705": "Opportunities - Paris",
-					"3732097239": "Opportunities - A Quick Break", 
+					"3732097239": "Opportunities - A Quick Break",
 					"886911040": "Opportunity - Guest of Honor",
 					"1299333297": "Opportunity - Playing with Fire",
 					"1281048895": "Opportunity - 15 Seconds Of Fame",
@@ -1955,7 +2112,7 @@
 				"japanese": {}
 			}
 		},
-			"group": "Localization| Mission Story Terminology"
+			"group": "Localization|Mission Story Terminology"
 		},
 		{
 			"name": "Vanilla",
@@ -1979,14 +2136,14 @@
 		{
 			"name": "Disabled",
 			"type": "select",
-			"group": "Suit|Item Sorting: Favorites",
+			"group": "Suit|Item Sorting|Favorites",
 			"enabledByDefault": true
 		},
 		{
 			"name": "Enabled (Peacock Only, HUI Sorting MUST be enabled)",
 			"type": "select",
 			"image": "framework content/favorite.png",
-			"group": "Suit|Item Sorting: Favorites",
+			"group": "Suit|Item Sorting|Favorites",
 			"tooltip": "Adds a custom subcategory for favorite items. Tutorial for adding and removing items can be found on the Nexus mod page.",
 			"contentFolders": [
 				"mod content/menus/favorites"
@@ -1995,18 +2152,21 @@
 		{
 			"name": "Disabled",
 			"type": "select",
-			"group": "Suit|Item Sorting: Vault",
+			"group": "Suit|Item Sorting|Vault",
 			"enabledByDefault": true
 		},
 		{
 			"name": "Enabled (Peacock Only, HUI Sorting MUST be enabled)",
 			"type": "select",
 			"image": "framework content/vault.png",
-			"group": "Suit|Item Sorting: Vault",
+			"group": "Suit|Item Sorting|Vault",
 			"tooltip": "Allows you to hide disliked items in a custom 'vault' category. Tutorial for adding and removing items can be found on the Nexus mod page.",
 			"contentFolders": [
 				"mod content/menus/vault"
 			]
 		}
+	],
+	"blobsFolders": ["mod content/base/blobs"],
+	"requirements": ["Notex.SimpleKeyEventHelper"
 	]
 }
