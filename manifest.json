@@ -1,5 +1,5 @@
 {
-	"version": "7.2.2",
+	"version": "7.4.0",
 	"id": "BurnTheWitch.HeritageUI",
 	"name": "Heritage UI",
 	"updateCheck": "https://raw.githubusercontent.com/The-Jaded-Obsidian-Witch/Heritage-UI-Update-Json/main/updater.json",
@@ -55,6 +55,8 @@
 			"UI_ITEM_SUBTYPE_S6": "Deadly Sins",
 			"UI_ITEM_SUBTYPE_S7": "Freelancer",
 			"UI_ITEM_SUBTYPE_IN_PLURAL_S7": "Freelancer",
+			"UI_ITEM_SUBTYPE_S8": "Modded",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S8": "Modded",
 			"UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_PISTOL": "Dart Guns",
 			"UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_PISTOL": "Dart Gun",
 			"UI_MENU_PAGE_SAFEHOUSE_ELEMENT_CATEGORY_EVERGREEN_SAFE": "Vault",
@@ -132,7 +134,7 @@
 			"UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_PISTOL": "Pistola a Dardi",
 			"UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_PISTOL": "Pistola a Dardi"
 		},
-		"german": {
+		"german": {			
 			"UI_HERITAGE_QUICK_LOAD": "Schnellladen",
 			"UI_HERITAGE_QUICK_SAVE": "Schnellspeichern",
 			"UI_HERITAGE_SEASON_1": "Season 1",
@@ -235,6 +237,8 @@
 			"UI_ITEM_SUBTYPE_S6": "Смертные грехи",
 			"UI_ITEM_SUBTYPE_S7": "Фрилансер",
 			"UI_ITEM_SUBTYPE_IN_PLURAL_S7": "Фрилансер",
+			"UI_ITEM_SUBTYPE_S8": "Из мода",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S8": "Из мода",
 			"UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_PISTOL": "Дротики",
 			"UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_PISTOL": "Дротик",
 			"UI_MENU_PAGE_SAFEHOUSE_ELEMENT_CATEGORY_EVERGREEN_SAFE": "Убежище",
@@ -289,7 +293,7 @@
 			"french": {
 			},
 			"italian": {
-				"1998245905": "Estrazione"
+				"1998245905": "Estrazione"	
 			},
 			"german": {},
 			"spanish": {
@@ -313,7 +317,7 @@
 				"243861870": "Saison 1"
 			},
 			"italian": {
-				"243861870": "Stagione 1"
+				"243861870": "Stagione 1"	
 			},
 			"german": {},
 			"spanish": {
@@ -344,8 +348,7 @@
 				"2977102836": "Disattiva VR"
 			},
 			"german": {},
-			"spanish": {
-			},
+			"spanish": {},
 			"russian": {
 				"2023958633": "Войти в VR",
 				"2977102836": "Выйти из VR"
@@ -362,7 +365,7 @@
 				"2541770964": "Saison 2"
 			},
 			"italian": {
-				"2541770964": "Stagione 2"
+				"2541770964": "Stagione 2"	
 			},
 			"german": {},
 			"spanish": {
@@ -383,7 +386,7 @@
 				"3766970434": "Saison 3"
 			},
 			"italian": {
-				"3766970434": "Stagione 3"
+				"3766970434": "Stagione 3"	
 			},
 			"german": {},
 			"spanish": {
@@ -391,6 +394,23 @@
 			},
 			"russian": {
 				"3766970434": "Сезон 3"
+			},
+			"chineseSimplified": {},
+			"chineseTraditional": {},
+			"japanese": {}
+		},
+		"00D7C2D00F538B72": {
+			"english": {
+				"1694445649": "The Disruptor"
+			},
+			"french": {
+			},
+			"italian": {
+			},
+			"german": {},
+			"spanish": {},
+			"russian": {
+				"1694445649": "Разрушитель"
 			},
 			"chineseSimplified": {},
 			"chineseTraditional": {},
@@ -432,7 +452,7 @@
 			"contentFolders": ["mod content/ui styles/heritage ui base"],
 			"enabledByDefault": true
 		},
-
+		
 		{
 			"name": "Heritage UI/Minimal Crosshair",
 			"tooltip": "Heritage UI'S custom UI with a minimal dot styled crosshair.",
@@ -700,7 +720,7 @@
 			"contentFolders": ["mod content/loading screens/h3/content"]
 		},
 		{
-
+			
 			"name": "Vanilla",
 			"tooltip": "Hitman WOA'S Default destination backgrounds.",
 			"image": "framework content/d_v.png",
@@ -917,6 +937,8 @@
 				"mod content/menus/quick save/blobs"
 			],
 			"group": "Quick Save|Load",
+			"requirements": ["Notex.SimpleKeyEventHelper"
+		],
 			"enabledByDefault": true
 		},
 		{
@@ -1025,7 +1047,7 @@
 						"3722945924": "Bartoli 12H",
 						"3882554747": "Bartoli 12H Deluxe",
 						"2058437330": "Striker Mk III"
-
+		
 					},
 					"french": {
 					},
@@ -1040,6 +1062,10 @@
 				},
 				"008322D98E1CFE04": {
 					"english": {
+						"3770174342": "Purple Streak Briefcase",
+						"4261183628": "Disruptor Kettlebell",
+						"891345639": "Resistance Band",
+						"3839233495": "Lucky Cane",
 						"1432256677": "Ancestral Knife",
 						"571095698": "Cat's Claw",
 						"2684151890": "Street Art Bat",
@@ -1139,6 +1165,8 @@
 				},
 				"004B8C5124A49543": {
 					"english": {
+						"598520579": "MMA Suit",
+						"2044201417": "Disruptor Suit",
 						"3944984988": "Blue Streak Suit",
 						"135933874": "Sunset Streak Suit",
 						"3199382373": "Midnight Clubbing Suit",
@@ -1495,7 +1523,7 @@
 			"0079B380B37AEAF1": {
 				"english": {
 					"3436103705": "Opportunities - Paris",
-					"3732097239": "Opportunities - A Quick Break",
+					"3732097239": "Opportunities - A Quick Break", 
 					"886911040": "Opportunity - Guest of Honor",
 					"1299333297": "Opportunity - Playing with Fire",
 					"1281048895": "Opportunity - 15 Seconds Of Fame",
@@ -2166,7 +2194,5 @@
 			]
 		}
 	],
-	"blobsFolders": ["mod content/base/blobs"],
-	"requirements": ["Notex.SimpleKeyEventHelper"
-	]
+	"blobsFolders": ["mod content/base/blobs"]
 }
